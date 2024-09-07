@@ -1,8 +1,15 @@
+import { Tile } from "./components/Tile"
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <div className="flex justify-around">
+        <Tile title={'Revenue'} />
+        <Tile title={'Payments'} />
+        <Tile title={'Refunds'} />
+        <Tile title={'Payouts'} />
+      </div>
+    </>
   )
 }
 
